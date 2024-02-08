@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/icons/logo-1-1-150x150.png" />
+    <title>Virtual Reality</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media-queries.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- <script src="scrollEffect.js"></script> -->
+  </head>
+  <body>
+    <!-- navbar start here -->
+
+    <nav>
+      <div class="nav-wrapper">
+        <div class="left">
+          <!-- image-div -->
+          <div class="logo">
+            <img src="./assets/icons/logo-1-1-150x150.png" alt="website logo" />
+            <span>Virtual Reality</span>
+          </div>
+          <!-- links -->
+          <div class="nav-links">
+            <ul class="list">
+              <li>Home</li>
+              <li class="dropdown">
+                <span>About Us</span
+                ><i class="down-arrow fa-solid fa-angle-down"></i>
+                <div class="content">
+                  <a>Team</a>
+                  <hr />
+                  <a>Testimonials</a>
+                  <hr />
+                  <a>FAQ</a>
+                </div>
+              </li>
+              <li>Portfolio</li>
+              <li>Contact Us</li>
+              <li>Services</li>
+              <li>News</li>
+            </ul>
+          </div>
+          <div class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <!-- hamburger menu middle -->
+          <div class="responsive-navlinks">
+            <div class="links">
+              <ul>
+                <li>Home</li>
+                <hr />
+                <li
+                  style="display: flex; justify-content: space-between"
+                  class="expandable-btn"
+                >
+                  <span>About Us</span>
+                  <i class="dropdown-open fa-solid fa-angle-down"></i>
+                </li>
+                <hr />
+                <div class="expandable">
+                  <li>Team</li>
+                  <hr />
+                  <li>Testimonials</li>
+                  <hr />
+                  <li>FAQ</li>
+                </div>
+                <hr />
+                <li>Portfolio</li>
+                <hr />
+                <li>Contact Us</li>
+                <hr />
+                <li>Services</li>
+                <hr />
+                <li>News</li>
+              </ul>
+              <button class="nav-close">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+
+            <!-- <button>cick me</button> -->
+          </div>
+        </div>
+
+        <!-- right  -->
+        <div class="right">
+          <p class="login-text">
+            <i class="user-icon fa-solid fa-user"></i><span>Log in</span>
+          </p>
+          <span><i class="bag-icon fa-solid fa-bag-shopping"></i></span>
+          <button class="">Get Started</button>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar ends -->
+
+    <!-- first section start -->
+    <main>
+      <section class="first-section">
+        <!-- first slider start here -->
+        <button class="prev-btn btns" onclick="prevSlide()">
+          <i class="fa-solid fa-angle-left"></i>
+        </button>
+        <button class="next-btn btns" onclick="nextSlide()">
+          <i class="fa-solid fa-angle-right"></i>
+        </button>
+        <div class="slider">
+          <!-- first slide demo -->
+          <div id="scroll-effect" class="second-slider slide">
+            <div class="container">
+              <p id="scroll-effect" class="p1">Where Reality Ends And</p>
+              <h1 id="scroll-effect">Imagination Begins</h1>
+
+              <p class="p2">
+                We specialize in providing cutting-edge Virtual Reality
+                solutions that transport you to immersive digital worlds.
+              </p>
+              <div class="buttons">
+                <button>Explore More</button>
+                <div class="play-btn">
+                  <span><i class="fa-solid fa-play"></i></span>
+                </div>
+                <h3>Watch Intro</h3>
+              </div>
+            </div>
+          </div>
+          <!-- second slide demo  -->
+
+          <div id="scroll-effect" class="first-slider slide">
+            <div class="container">
+              <p id="scroll-effect" class="p1">Where Reality Ends And</p>
+              <h1 id="scroll-effect">Imagination Begins</h1>
+
+              <p class="p2">
+                We specialize in providing cutting-edge Virtual Reality
+                solutions that transport you to immersive digital worlds.
+              </p>
+              <div class="buttons">
+                <button>Explore More</button>
+                <div class="play-btn">
+                  <span><i class="fa-solid fa-play"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- side demo end  -->
+        </div>
+        <!-- first slider ends here -->
+        <!-- second slider start from here -->
+
+        <!-- second slider ends here -->
+      </section>
+      <!-- second section start from here -->
+      <section>
+        <div class="second-section">
+          <!-- first part -->
+          <div id="scroll-effect" class="why-us">
+            <div class="why-us-container">
+              <h2>Why Choose Us ?</h2>
+              <p>Lorem is simpy dummmy text of the printing and typesetting.</p>
+              <button>Explore More</button>
+            </div>
+          </div>
+          <!-- second part -->
+          <div id="scroll-effect" class="reasons">
+            <!-- reason number 1 -->
+            <div class="reason">
+              <div class="image">
+                <img src="./assets/icons/service-2.png" alt="" />
+              </div>
+              <div style="display: inline" class="text">
+                <h1 class="under-line-hover">Modern Technology</h1>
+                <p>
+                  Lorem is simpy dummmy text of the printing and typesetting.
+                </p>
+              </div>
+            </div>
+            <!-- reason number 2 -->
+            <div class="reason">
+              <div class="image">
+                <img src="./assets/icons/service-1.png" alt="" />
+              </div>
+              <div style="display: inline" class="text">
+                <h1 class="under-line-hover">Digital Strategy</h1>
+                <p>
+                  Lorem is simpy dummmy text of the printing and typesetting.
+                </p>
+              </div>
+            </div>
+            <!-- reason number 3 -->
+            <div class="reason">
+              <div class="image">
+                <img src="./assets/icons/service-3.png" alt="" />
+              </div>
+              <div style="display: inline" class="text">
+                <h1 class="under-line-hover">Scalability</h1>
+                <p>
+                  Lorem is simpy dummmy text of the printing and typesetting.
+                </p>
+              </div>
+            </div>
+            <!-- reason number 4 -->
+            <div class="reason">
+              <div class="image">
+                <img src="./assets/icons/service-4.png" alt="" />
+              </div>
+              <div style="display: inline" class="text">
+                <h1 class="under-line-hover">Versatile Applications</h1>
+                <p>
+                  Lorem is simpy dummmy text of the printing and typesetting.
+                </p>
+              </div>
+            </div>
+            <!-- reason end -->
+          </div>
+        </div>
+      </section>
+
+      <!-- third section start from here  -->
+
+      <section class="section-3">
+        <div class="third-section">
+          <!-- --------- -->
+          <div class="rebuild">
+            <!-- top -->
+            <h1 id="scroll-effect">Experience a New Dimension of Reality</h1>
+            <!-- bottom -->
+            <div id="scroll-effect" class="bottom-part">
+              <!-- left img and text part -->
+              <div class="left-text-img">
+                <!-- top paragraph -->
+                <p>
+                  Change the workflow for your WordPress site, control
+                  everything from Site editor without using aby extra plugins.
+                  Improved speed, web vitals score and SEO to get better
+                  positions
+                </p>
+                <!-- 2 image div -->
+                <div class="vr-girls-img">
+                  <div class="first-img">
+                    <img
+                      src="./assets/hero-1.jpg"
+                      alt="first girl with VR on"
+                    />
+                  </div>
+                  <div class="second-img">
+                    <img
+                      src="./assets/hero-2.jpg"
+                      alt="second girl with VR on"
+                    />
+                  </div>
+                </div>
+                <!-- number box -->
+                <div class="numbers">
+                  <!-- first number box -->
+                  <div class="client-box">
+                    <h2>98 <span>%</span></h2>
+                    <p>Satisfied Clients</p>
+                  </div>
+                  <!-- second number box -->
+                  <div class="client-box">
+                    <h2>99 <span>+</span></h2>
+                    <p>Popular Features</p>
+                  </div>
+                  <!-- third number box -->
+                  <div class="client-box">
+                    <h2>10<span>M</span></h2>
+                    <p>Clients Worldwide</p>
+                  </div>
+                  <!-- number box end -->
+                </div>
+              </div>
+              <!-- right img -->
+              <div class="right-img"></div>
+            </div>
+          </div>
+          <!-- ---------- -->
+        </div>
+      </section>
+
+      <!-- services section start  -->
+      <section>
+        <div class="service-main">
+          <!-- service top part  -->
+          <div id="scroll-effect" class="service-top">
+            <div class="testimonial-top">
+              <!-- top left -->
+              <div class="top-left">
+                <div class="testimonial-title">
+                  <hr class="hr" />
+                  <p>Services</p>
+                </div>
+                <h1>Discover Our Best VR Services</h1>
+              </div>
+              <!-- top right -->
+              <div class="top-right">
+                <button>View All Services</button>
+              </div>
+            </div>
+          </div>
+          <!-- service bottom part  -->
+          <div id="scroll-effect" class="service-bottom">
+            <div class="image-container">
+              <div class="image-wrapper image-wrapper-main">
+                <!-- images for slide -->
+                <div class="service-image">
+                  <img src="./assets/VR-1.jpg" alt="" />
+                  <div class="text">
+                    <p>Service</p>
+                    <h3>Marketing VR</h3>
+                  </div>
+                </div>
+                <div class="service-image">
+                  <img src="./assets/VR-2.jpg" alt="" />
+                  <div class="text">
+                    <p>Service</p>
+                    <h3>Game VR</h3>
+                  </div>
+                </div>
+                <div class="service-image">
+                  <img src="./assets/VR-3.jpg" alt="" />
+                  <div class="text">
+                    <p>Service</p>
+                    <h3>Commercial VR</h3>
+                  </div>
+                </div>
+                <div class="service-image">
+                  <img src="./assets/VR-4.jpg" alt="" />
+                  <div class="text">
+                    <p>Service</p>
+                    <h3>Product VR</h3>
+                  </div>
+                </div>
+
+                <!-- images finished  -->
+
+                <!-- dublicate for loop start  -->
+                <div class="service-image">
+                  <img src="./assets/VR-1.jpg" alt="" />
+                  <div class="text">
+                    <p>Service</p>
+                    <h3>Marketing</h3>
+                  </div>
+                </div>
+                <div class="service-image">
+                  <img src="./assets/VR-2.jpg" alt="" />
+                  <div class="text">
+                    <p>Service</p>
+                    <h3>Marketing VR</h3>
+                  </div>
+                </div>
+
+                <!-- end  -->
+              </div>
+              <!-- image wrapper for smaller device start               -->
+              <div class="image-wrapper2 image-wrapper">
+                <!-- images for slide -->
+                <div class="service-image service-image2">
+                  <img src="./assets/VR-1.jpg" alt="" />
+                  <div class="text">
+                    <p>Service</p>
+                    <h3>Marketing</h3>
+                  </div>
+                </div>
+                <div class="service-image service-image2">
+                  <img src="./assets/VR-2.jpg" alt="" />
+                  <div class="text">
+                    <p>Service</p>
+                    <h3>Marketing VR</h3>
+                  </div>
+                </div>
+                <div class="service-image service-image2">
+                  <img src="./assets/VR-3.jpg" alt="" />
+                  <div class="text">
+                    <p>Service</p>
+                    <h3>Game VR</h3>
+                  </div>
+                </div>
+                <div class="service-image service-image2">
+                  <img src="./assets/VR-4.jpg" alt="" />
+                  <div class="text">
+                    <p>Service</p>
+                    <h3>Commercial VR</h3>
+                  </div>
+                </div>
+              </div>
+
+              <!-- image wrapper for smaller device                -->
+              <button onclick="previous()" class="prev-btn prev-main">
+                <i class="fa-solid fa-angle-left"></i>
+              </button>
+              <button onclick="next()" class="next-btn next-main">
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+              <!-- button for smaler device  -->
+              <button onclick="previous2()" class="prev-btn prev-btn2">
+                <i class="fa-solid fa-angle-left"></i>
+              </button>
+              <button onclick="next2()" class="next-btn next-btn2">
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- testimonial section start from here -->
+      <section>
+        <div class="testimonial-slider">
+          <div class="testimonial">
+            <!-- top text -->
+            <div id="scroll-effect" class="testimonial-top">
+              <!-- top left -->
+              <div class="top-left">
+                <div class="testimonial-title">
+                  <hr class="hr" />
+                  <p>Testimonials</p>
+                </div>
+                <h1>Trusted By Big Companies</h1>
+              </div>
+              <!-- top right -->
+              <div class="top-right">
+                <button>Give Feedback</button>
+              </div>
+            </div>
+            <!-- bottom text -->
+            <div id="scroll-effect" class="testimonial-bottom">
+              <!-- left image part  -->
+              <div class="image-part">
+                <img src="./assets/testimonials.jpg" alt="testimonial-image" />
+                <div class="ceo-name">
+                  <h2>Jane Doe</h2>
+                  <p>Founder/ CEO</p>
+                </div>
+              </div>
+              <!-- right text part -->
+              <div class="text-part">
+                <p>
+                  "It was really great working with Mobi team and I am happy I
+                  was introduced to this team! It's not easy to work on a
+                  website some one else I am grateful that Mobi team."
+                </p>
+                <img src="./assets/icons/rating.png" alt="rating" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- services section end  -->
+
+      <!-- news section start from here -->
+      <section>
+        <div class="news-section">
+          <!-- news section top  -->
+          <div id="scroll-effect" class="news-section-top">
+            <div class="testimonial-top">
+              <!-- top left -->
+              <div class="top-left">
+                <div class="testimonial-title">
+                  <hr class="hr" />
+                  <p>Our News</p>
+                </div>
+                <h1>Our Latest News and Articles</h1>
+              </div>
+              <!-- top right -->
+              <div class="top-right">
+                <button>All News</button>
+              </div>
+            </div>
+          </div>
+          <!-- news section bottom  -->
+          <div id="scroll-effect" class="news-section-bottom">
+            <!-- bottom left image  -->
+            <div class="bottom-left">
+              <div class="text-box">
+                <p>October 21,2022</p>
+                <h2>Latest Fashion Trends in This summer</h2>
+              </div>
+              <img
+                src="./assets/social-media-addiction-2021-09-24-02-56-43-utc-1.jpeg"
+                alt="news-image"
+              />
+            </div>
+            <!-- bottom right  -->
+            <div class="bottom-right">
+              <!-- news 1 -->
+              <div class="news">
+                <!-- image  -->
+                <div class="image">
+                  <img
+                    src="./assets/social-media-addiction-2021-09-24-02-56-43-utc-1.jpeg"
+                    alt="news-image-2"
+                  />
+                </div>
+                <!-- text  -->
+                <div style="display: inline" class="text">
+                  <h3 class="under-line-hover">
+                    Latest Fashion Trends in This Summer
+                  </h3>
+
+                  <p>
+                    <i class="fa-regular fa-clock"></i>
+                    <span>October 21, 2022</span>
+                  </p>
+                </div>
+              </div>
+              <!-- news 2 -->
+              <div class="news">
+                <!-- image  -->
+                <div class="image">
+                  <img
+                    src="./assets/the-smart-generation-2022-02-02-03-57-42-utc.jpeg"
+                    alt="news-image-3"
+                  />
+                </div>
+                <!-- text  -->
+                <div style="display: inline" class="text">
+                  <h3 class="under-line-hover">
+                    Highlights New York Fashion Weeks 2022
+                  </h3>
+                  <p>
+                    <i class="fa-regular fa-clock"></i>
+                    <span>October 21, 2022</span>
+                  </p>
+                </div>
+              </div>
+              <!-- news 3 -->
+              <div class="news">
+                <!-- image  -->
+                <div class="image">
+                  <img
+                    src="./assets/woman-have-breakfast-in-caffe-and-using-smartphone-2022-01-29-00-32-37-utc.jpeg"
+                    alt="news-image-4"
+                  />
+                </div>
+                <!-- text  -->
+                <div style="display: inline" class="text">
+                  <h3 class="under-line-hover">
+                    The best apps to your next trips
+                  </h3>
+                  <p>
+                    <i class="fa-regular fa-clock"></i>
+                    <span>October 21, 2022</span>
+                  </p>
+                </div>
+              </div>
+              <!-- news end  -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- news section end here -->
+
+      <!-- pricing section start from here  -->
+      <section>
+        <div class="pricing-section">
+          <!-- pricing top part  -->
+          <div id="scroll-effect" class="pricing-top">
+            <p>Pricing Table</p>
+            <h2>Choose Your Product</h2>
+          </div>
+          <!-- pricing bottom part  -->
+          <div class="pricing-bottom">
+            <!-- first package -->
+            <div id="scroll-effect" class="package">
+              <div class="price">
+                <h2>$10.99</h2>
+                <span><b>/</b>month </span>
+              </div>
+              <h3>Basic Plan</h3>
+              <div class="description">
+                Lorem is simply dummy text of the printing and typesetting
+                industry
+              </div>
+              <div class="package-features">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-check"></i><span>Consultation</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>Project Planning</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>Project Render</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>24 / 7 Support</span>
+                  </li>
+                </ul>
+              </div>
+              <button>Order Now</button>
+            </div>
+            <!-- second package -->
+            <div id="scroll-effect" class="package">
+              <div class="price">
+                <h2>$15.99</h2>
+                <span> <b>/</b>month </span>
+              </div>
+              <h3>Regular Plan</h3>
+              <div class="description">
+                Lorem is simply dummy text of the printing and typesetting
+                industry
+              </div>
+              <div class="package-features">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-check"></i><span>Consultation</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>Project Planning</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>Project Render</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>24 / 7 Support</span>
+                  </li>
+                </ul>
+              </div>
+              <button class="middle-btn">Order Now</button>
+            </div>
+            <!-- third package  -->
+            <div id="scroll-effect" class="package">
+              <div class="price">
+                <h2>$27.99</h2>
+                <span> <b>/</b>month </span>
+              </div>
+              <h3>Delux Plan</h3>
+              <div class="description">
+                Lorem is simply dummy text of the printing and typesetting
+                industry
+              </div>
+              <div class="package-features">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-check"></i><span>Consultation</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>Project Planning</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>Project Render</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>24 / 7 Support</span>
+                  </li>
+                </ul>
+              </div>
+              <button>Order Now</button>
+            </div>
+            <!-- end  -->
+          </div>
+        </div>
+      </section>
+
+      <!-- pricing section end here  -->
+
+      <!-- bottom why choose us section start  -->
+      <section>
+        <div class="why-choose-us">
+          <!-- top part  -->
+          <div id="scroll-effect" class="top-part">
+            <div class="testimonial-top">
+              <!-- top left -->
+              <div class="top-left">
+                <div class="testimonial-title">
+                  <hr class="hr" />
+                  <p>Our Services for Clients</p>
+                </div>
+                <h1>Why Choose Us ?</h1>
+              </div>
+              <!-- top right -->
+              <div class="top-right">
+                <button>View All Services</button>
+              </div>
+            </div>
+          </div>
+          <!-- bottom part  -->
+          <div class="bottom-part">
+            <div class="items-div">
+              <!-- first item  -->
+              <div id="scroll-effect" class="bottom-part-item">
+                <img src="./assets/icons/service-1.png" alt="icon" />
+                <div style="display: inline">
+                  <h2 class="under-line-hover">Digital Strategy</h2>
+                </div>
+                <p>
+                  Lorem is simple dummy text of the printing and typesetting.
+                </p>
+                <h3>View Details</h3>
+              </div>
+              <!-- second item  -->
+              <div id="scroll-effect" class="bottom-part-item">
+                <img src="./assets/icons/service-2.png" alt="icon" />
+                <div style="display: inline">
+                  <h2 class="under-line-hover">Modern Technology</h2>
+                </div>
+                <p>
+                  Lorem is simple dummy text of the printing and typesetting.
+                </p>
+                <h3>View Details</h3>
+              </div>
+              <!-- third item  -->
+              <div id="scroll-effect" class="bottom-part-item">
+                <img src="./assets/icons/service-3.png" alt="icon" />
+                <div style="display: inline">
+                  <h2 class="under-line-hover">Scalability</h2>
+                </div>
+                <p>
+                  Lorem is simple dummy text of the printing and typesetting.
+                </p>
+                <h3>View Details</h3>
+              </div>
+              <!-- forth item  -->
+              <div id="scroll-effect" class="bottom-part-item">
+                <img src="./assets/icons/service-4.png" alt="icon" />
+                <div style="display: inline">
+                  <h2 class="under-line-hover">Versatile Applications</h2>
+                </div>
+                <p>
+                  Lorem is simple dummy text of the printing and typesetting.
+                </p>
+                <h3>View Details</h3>
+              </div>
+              <!-- fifth item  -->
+              <div id="scroll-effect" class="bottom-part-item">
+                <img
+                  style="width: 35px"
+                  src="./assets/icons/service-5.png"
+                  alt="icon"
+                />
+                <div style="display: inline">
+                  <h2 class="under-line-hover">Cost Effective</h2>
+                </div>
+                <p>
+                  Lorem is simple dummy text of the printing and typesetting.
+                </p>
+                <h3>View Details</h3>
+              </div>
+              <!-- sixth item  -->
+              <div id="scroll-effect" class="bottom-part-item">
+                <img src="./assets/icons/service-6.png" alt="icon" />
+                <div style="display: inline">
+                  <h2 class="under-line-hover">Diverse Approach</h2>
+                </div>
+                <p>
+                  Lorem is simple dummy text of the printing and typesetting.
+                </p>
+                <h3>View Details</h3>
+              </div>
+              <!-- ----to be continue -->
+            </div>
+            <div id="scroll-effect" class="button">
+              <button>View More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- bottom why choose us section end  -->
+
+      <!-- brand logos sections -->
+      <section>
+        <div id="scroll-effect" class="brands-list">
+          <!-- first brand  -->
+          <div class="brand">
+            <img src="./assets/icons/client1.png" alt="brand-logo" />
+          </div>
+          <!-- second brand  -->
+          <div class="brand">
+            <img src="./assets/icons/client2.png" alt="brand-logo" />
+          </div>
+          <!-- third brand  -->
+          <div class="brand">
+            <img src="./assets/icons/client3.png" alt="brand-logo" />
+          </div>
+          <!-- forth brand  -->
+          <div class="brand">
+            <img src="./assets/icons/client4.png" alt="brand-logo" />
+          </div>
+          <!-- fifth brand  -->
+          <div class="brand">
+            <img src="./assets/icons/client5.png" alt="brand-logo" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--  footer section  -->
+    <footer>
+      <!-- first footer section  -->
+
+      <div class="first-footer">
+        <!-- top part of the footer  -->
+        <div id="scroll-effect" class="footer-top">
+          <!-- first item  -->
+          <div class="footer-top-item">
+            <div class="logo">
+              <img src="./assets/icons/logo-1-1-150x150.png" alt="logo" />
+              <div style="display: inline">
+                <h1 class="under-line-hover">Virtual Reality</h1>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              sint voluptatibus fugit temporibus laboriosam illum unde possimus.
+            </p>
+          </div>
+          <!-- second item  -->
+          <div class="footer-top-item">
+            <h2>Quick Links</h2>
+            <div class="links">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-check"></i><span>Our Services</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i><span>Our Portfolio</span>
+                </li>
+                <li><i class="fa-solid fa-check"></i><span>Contact</span></li>
+                <li><i class="fa-solid fa-check"></i><span>News</span></li>
+              </ul>
+            </div>
+          </div>
+          <!-- third item  -->
+          <div class="footer-top-item">
+            <h2>Recent News</h2>
+            <div class="news">
+              <ul>
+                <li>
+                  <i class="fa-regular fa-clock"></i><span>Blocks (2)</span>
+                </li>
+                <li><i class="fa-regular fa-clock"></i><span>FSE (2)</span></li>
+                <li>
+                  <i class="fa-regular fa-clock"></i><span>Gutenify (2)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- forth item  -->
+          <div class="footer-top-item">
+            <h2>Quick Contact</h2>
+            <div class="address">
+              <ul>
+                <li>New South Wales, Austraia</li>
+                <li>exampel@exampel.com</li>
+                <li>123 4567890</li>
+                <li>10 AM - 5 PM</li>
+              </ul>
+            </div>
+          </div>
+          <!-- item finished -->
+        </div>
+        <!-- bottom part of the footer  -->
+        <div class="footer-bottom">
+          <!-- first part of the bottom part of the footer  -->
+          <div class="follow-us">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+          </div>
+          <!-- second part  -->
+          <div class="subscribe">
+            <h3>Subscribe Our Newsletter</h3>
+            <input placeholder="Your email address" type="text" />
+            <button>Sign Up</button>
+          </div>
+          <!-- last part of the footer  -->
+          <div class="payment">
+            <h3>Payment</h3>
+            <img src="./assets/icons/payment.png" alt="payment methods image" />
+          </div>
+          <!-- ended -->
+        </div>
+      </div>
+      <!-- second footer part  -->
+      <div class="second-footer">
+        <p>Proudly powered by Gutenify and WordPress.</p>
+      </div>
+    </footer>
+
+    <button onclick="scrollToTop()" id="backToTopBtn">
+      <i class="fa-solid fa-angle-up"></i>
+    </button>
+
+    <script src="index.js"></script>
+    <script src="scrollEffect.js"></script>
+  </body>
+</html>
